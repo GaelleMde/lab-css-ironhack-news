@@ -179,9 +179,13 @@ header {
 /* Write your CSS below */
  @media (width < 760px){
 
-li {
+.navbar li  {
   color: #ffffff;
-  border-color: #ee4545;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  width: 100vw;
+  
 }
 
 .navbar {
@@ -189,6 +193,7 @@ li {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .articles-container {
@@ -219,6 +224,12 @@ li {
 
  article img {
   width: 100%;
+  height: auto;
+}
+
+.main-article .content {
+  width: 80%;
+  padding: 0 20px;
   height: auto;
 }
  }
